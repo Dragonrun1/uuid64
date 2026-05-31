@@ -1,0 +1,12 @@
+[package]
+authors.workspace = true
+description = "C FFI bindings for uuid64, enabling use from C and other FFI-compatible languages"
+edition.workspace = true
+license.workspace = true
+name = "uuid64-ffi"
+repository.workspace = true
+rust-version.workspace = true
+version = "0.1.0"
+
+[dependencies]
+uuid64-core = { path = "../uuid64-core" }
