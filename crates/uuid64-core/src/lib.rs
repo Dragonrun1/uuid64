@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: 2026 Michael Cummings <mgcummings@yahoo.com>
+// SPDX-License-Identifier: BSD-3-Clause OR LGPL-3.0-or-later
+
 use std::fmt;
 use uuid::Uuid;
 
