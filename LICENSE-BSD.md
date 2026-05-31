@@ -1,4 +1,4 @@
-Modified BSD License
+BSD 3-Clause License
 ====================
 
 _Copyright © `2026`, `uuid64 project authors`_
