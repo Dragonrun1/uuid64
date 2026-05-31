@@ -10,3 +10,11 @@ version = "0.1.0"
 
 [dependencies]
 uuid64-core = { path = "../uuid64-core" }
+
+[lib]
+crate-type = ["cdylib"]
+
+[profile.release]
+lto = true
+codegen-units = 1
+strip = true
