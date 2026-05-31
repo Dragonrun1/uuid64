@@ -1,0 +1,25 @@
+[package]
+authors.workspace = true
+description = "Core encoding and decoding logic for URL-safe base64 UUID strings"
+edition.workspace = true
+license.workspace = true
+name = "uuid64-core"
+repository.workspace = true
+rust-version.workspace = true
+version = "0.1.0"
+
+[dependencies]
+uuid = { workspace = true }
+serde = { workspace = true, optional = true }
+
+[features]
+default = []
+serde = ["dep:serde"]
+
+[lib]
+crate-type = ["rlib"]
+
+[profile.release]
+lto = true
+codegen-units = 1
+strip = true
