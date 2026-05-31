@@ -1,4 +1,5 @@
 BSD 3-Clause License
+====================
 
 Copyright (c) 2026, uuid64 project authors (see [AUTHORS](AUTHORS.md) file for details)
 
